@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SoftUni Blog</title>
+    <link rel='stylesheet' href='/stylesheets/index-style.css' />
+    <link rel='stylesheet' href='/stylesheets/create-style.css' />
+    <link rel='stylesheet' href='/stylesheets/delete-style.css' />
+    <link rel='stylesheet' href='/stylesheets/reset-style.css'/>
+</head>
+<body>
+    {{#if error }}
+        <p class="error-msg">{{error}}</p>
+    {{/if}}
+    {{{body}}}
+</body>
+</html>
